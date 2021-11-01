@@ -1,5 +1,13 @@
 .character-card {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+}
+
+.lazyload-wrapper {
+  width: 100%;
+}
+
+.character-card img { 
+  width: 100%;
 }

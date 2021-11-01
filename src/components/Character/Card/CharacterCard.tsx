@@ -11,7 +11,7 @@ export default function CharacterCard (props: CharacterCardProps): JSX.Element {
 
   return (
     <div className='character-card'>
-      <LazyLoad height={200} offset={200} once>
+      <LazyLoad offset={200} once>
         <img src={image} alt='' />
       </LazyLoad>
       <div><strong>{name}</strong></div>

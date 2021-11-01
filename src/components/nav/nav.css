@@ -1,0 +1,17 @@
+nav {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  max-width: 300px;
+}
+
+nav input {
+  padding: 1rem;
+  font-size: large;
+}
+nav button {
+  padding: 1rem;
+}
