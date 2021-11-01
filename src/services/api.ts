@@ -7,5 +7,5 @@ export async function getAllCharacters (): Promise<CharacterResp> {
 }
 
 export async function getJSONCharacters (): Promise<CharacterResp> {
-  return await fetch('/data.json').then(async res => await res.json())
+  return await fetch(import.meta.env.BASE_URL + '/data.json').then(async res => await res.json())
 }
