@@ -8,7 +8,7 @@ interface NavProps {
 export default function Nav (props: NavProps): JSX.Element {
   return (
     <nav>
-      <img src='/logo.png' alt='' />
+      <img src={import.meta.env.BASE_URL + '/logo.png'} alt='' />
       <input type='text' name='' id='' value={props.filterValue} onChange={value => props.onFilterChange(value.target.value)} />
       <button>Buscar</button>
     </nav>
