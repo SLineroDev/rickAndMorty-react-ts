@@ -14,7 +14,7 @@ export default function CharacterList (): JSX.Element {
   }, [])
 
   return (
-    <div>
+    <div className='characters-list'>
       {
         characterList.map((character: Character, index) =>
           <CharacterCard key={index} character={character} />)

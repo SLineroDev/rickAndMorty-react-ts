@@ -10,7 +10,7 @@ export default function CharacterCard (props: CharacterCardProps): JSX.Element {
   const { name, status, image } = props.character
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignContent: 'center' }}>
+    <div className='character-card'>
       <LazyLoad height={200} offset={200} once>
         <img src={image} alt='' />
       </LazyLoad>
